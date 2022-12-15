@@ -24,7 +24,7 @@
         <div>
             <!-- Nav Bar -->
 
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
 
                 <!-- narbar brand -->
                 <img class="navbar-brand navlogo" src="images/logo.png" alt="">
@@ -57,22 +57,26 @@
             <!-- End Nav -->
 
             <!-- Home  -->
-                <div class="row">
-                    <div class="container">
-                        <img class="home-img" src="images/lead-bg.jpg" alt="">
-                        <div class="centered">
-                            <div class="col-md-12">
+                <div 
+                class="masthead"
+                style="background-image: url('./images/lead-bg.jpg');">
+                    <div class="color-overlay d-flex justify-content-center align-items-center">
+                        <div class="container">
+                            <div class="row">
                                 <h1>Michael Granberry</h1>
+                            </div>
+                            <div class="row">
                                 <h2>Computer Engineer</h2>
-
-                                <!-- Resume Button -->
-                                <form action="https://drive.google.com/file/d/10msQKqfhkUXIWoL5C_iH2ALsO8dNmpr1/view?usp=share_link" target="_blank">
-                                    <button class="btn btn-outline-light"> <i class="fa-light fa-file-user"></i> Download Resume</button>
+                            </div>
+                            <div class="row">
+                                <form action="#">
+                                    <button class="btn btn-outline-light">Download Resume</button>
                                 </form>
-                                <!-- End Rusume Button -->
                             </div>
                         </div>
+                       
                     </div>
+                    
                 </div>
         </div>
         <!-- End Home -->
@@ -113,13 +117,20 @@
     <section id="projects" class="alt-section">
         <div class="container-fluid">
             <h3>Projects</h3>
-            <!-- A Project -->
-            <div class="col-md-12 project">
+            <!-- #project -->
+            <div id="project" class="col-md-12">
+                <div class="container 
+                justify-content-center">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="project-img-div
+                    col-md-4
+                    col-sm-12"
+                    style="background-color: blue;">
                         <img class="project-img" src="images/dmsp.jpg" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8
+                    col-sm-12"
+                    style="background-color: goldenrod;">
                         <h4>Sonar</h4>
                         <h6>Python, ROS, Sonar Sensor, I2C Bus, Raspberry Pi</h6>
                         <br>
@@ -130,14 +141,20 @@
                     </div>
                 </div>
             </div>
-            <!-- End A Project -->
-            <!-- A Project -->
-            <div class="col-md-12 project">
+                
+            </div>
+            <!-- End #project -->
+            <!-- #project -->
+            <div id="project" class="col-md-12">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4
+                    col-sm-12"
+                    style="background-color: blue;">
                         <img class="project-img" src="images/pr3-main-form.png" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8
+                    col-sm-12"
+                    style="background-color: goldenrod;">
                         <h4>PR3 Hotel Management System</h4>
                         <h6>C#, .NET, Window Forms, MSTest, JSON, Firebase Database</h6>
                         <br>
@@ -148,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End A Project -->
+            <!-- End #project -->
         </div>
 
     </section>

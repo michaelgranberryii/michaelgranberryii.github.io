@@ -202,5 +202,10 @@ p {
     #home h2{
         font-size: calc(.1rem + 3vw)
     }
+
+    .resume-btn {
+        max-width: 10rem;
+        font-size: x-small;
+    }
   
   }

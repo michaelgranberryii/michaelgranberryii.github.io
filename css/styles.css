@@ -24,15 +24,19 @@ h2 {
 
 h3 {
     font-weight: 300;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 3px;
 }
 
 h4 {
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 h5 {
-    font-size: .7rem;
+    font-size: .8rem;
+    font-weight: 400;
+    color: grey;
 }
 
 p {
@@ -100,6 +104,7 @@ p {
 #home {
     margin-top: 60px;
     scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
 .masthead { 
@@ -127,6 +132,7 @@ p {
     padding-top: 50px;
     padding-bottom: 50px;
     scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
 .profile-img{
@@ -139,6 +145,7 @@ p {
     padding-top: 50px;
     padding-bottom: 50px;
     scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
 #project {
@@ -157,6 +164,7 @@ p {
     padding-top: 50px;
     padding-bottom: 50px;
     scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
 #contacts h3{
@@ -172,7 +180,11 @@ p {
 
 /* Social */
 #social {
-    padding: 5% 30%;
+    padding: 5% 0%;
+}
+
+.social-icon {
+    margin-bottom: 6px;
 }
 
 

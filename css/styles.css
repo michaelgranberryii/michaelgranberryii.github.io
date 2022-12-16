@@ -186,12 +186,12 @@ p {
     /* Home */
 
     #home {
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 0px;
     }
     
     .masthead {
-        min-height: 30vh;
+        min-height: 50vh;
         text-align: center;
     }
 
@@ -200,12 +200,12 @@ p {
     }
 
     #home h2{
-        font-size: calc(.1rem + 3vw)
+        font-size: calc(.1rem + 3vw);
     }
 
     .resume-btn {
         max-width: 10rem;
-        font-size: x-small;
+        font-size: calc(.1rem + 1.3vw);
     }
   
   }

@@ -57,6 +57,9 @@ p {
     padding: 5% 25%;
 }
 
+.container {
+    padding: 0% 7%;
+}
 /* Sections */
 
 .white-section{
@@ -96,6 +99,7 @@ p {
 
 #home {
     margin-top: 60px;
+    scroll-margin-top: 60px;
 }
 
 .masthead { 
@@ -122,13 +126,17 @@ p {
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 60px;
 }
 
-
+.profile-img{
+    max-width: 15rem;
+}
 /* Projects */
 #projects {
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 60px;
 }
 
 #project {
@@ -138,10 +146,15 @@ p {
     border-radius: 5px;
 }
 
+.project-card {
+    max-width: 30rem;
+}
+
 /* Contacts */
 #contacts {
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 60px;
 }
 
 #contacts h3{

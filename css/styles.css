@@ -140,6 +140,10 @@ p {
     border-radius: 30px;
 }
 
+.about-social{
+    padding-right: 10px;
+}
+
 /* Projects */
 #projects {
     padding-top: 50px;

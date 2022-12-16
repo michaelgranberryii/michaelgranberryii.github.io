@@ -212,34 +212,42 @@
                 </div>
             </div>
             <div class="row">
-                <form class="row g-3" action="https://formsubmit.co/michael.granberry.612@my.csun.edu" method="POST">
+                <!-- Start #contact-form -->
+                <form id="contact-form" class="row g-3" action="https://formsubmit.co/f3c4276fca23542b3a70787e9c6eb2bd" method="POST">
+                    <!-- First Name -->
                     <div class="col-md-6">
                         <label for="firstName" class="form-label">First Name *</label>
-                        <input type="text" class="form-control" name="" id="firstName" required>
+                        <input type="text" class="form-control" name="name" id="firstName" required>
                     </div>
+                    <!-- Last Name -->
                     <div class="col-md-6">
                         <label for="lastName" class="form-label">Last Name *</label>
-                        <input type="text" class="form-control" name="" id="lastName" required>
+                        <input type="text" class="form-control" name="Last Name" id="lastName" required>
                     </div>
+                    <!-- Email Info -->
                     <div class="col-md-8">
                         <label for="emailInfo" class="form-label">E-mail *</label>
-                        <input type="email" class="form-control" id="emailInfo" required>
+                        <input type="email" class="form-control" id="emailInfo" name="email" required>
                     </div>
+                    <!-- Phone Number -->
                     <div class="col-md-4">
                         <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (310) 132-4567">
+                        <input type="text" class="form-control" id="phoneNumber" name="phone" placeholder="+1 (310) 132-4567">
                     </div>
+                    <!-- Message -->
                     <div class="col-md-12">
                         <label for="comments" class="form-label">Message *</label>
-                        <textarea class="form-control" name="" id="comments" rows="4" required></textarea>
+                        <textarea class="form-control" name="" id="comments" rows="4" name="messages" required></textarea>
                     </div>
+                    <!-- Submit Button -->
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </form>
+                <!-- End #contact-form -->
             </div>          
         </div>
-        <!-- End #contact-form -->
+        
     </section>
     <!-- End #contacts -->
 

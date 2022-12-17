@@ -86,7 +86,7 @@ p {
 }
 
 .nav-item {
-    padding: 0 25px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -152,6 +152,7 @@ p {
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
+
 #project {
     background-color: rgb(219, 219, 219);
     margin-bottom: 5%;
@@ -161,6 +162,24 @@ p {
 
 .project-card {
     max-width: 30rem;
+}
+
+/* Experience */
+
+#experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
+}
+
+/* Skills */
+
+#skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
 /* Contacts */

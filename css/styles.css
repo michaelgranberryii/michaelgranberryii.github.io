@@ -132,11 +132,20 @@ p {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(28, 49, 68, 0.73);
+    background-color: rgba(28, 49, 68, 0.75);
 }
 
-.icon {
-    padding-right: 5px;
+.a-icon {
+    color: white;
+    margin: 0 10px;
+}
+
+.icon-size {
+    font-size: 2em;
+}
+
+.a-icon:hover{
+    color: #00000071;
 }
   
 /* About */
@@ -293,6 +302,10 @@ p {
         font-size: calc(.1rem + 1.3vw);
     }
 
+    .icon-size {
+        font-size: calc(.1rem + 3vw)
+    }
+
     /* Education */
 
     .list-items {
@@ -316,7 +329,5 @@ p {
         text-align: center;
     }
 
-    .date-location-school{
-        
-    }
+
   }

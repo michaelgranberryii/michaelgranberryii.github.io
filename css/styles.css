@@ -291,20 +291,15 @@ p {
     }
 
     #home h1{
-        font-size: calc(.5rem + 3.3vw);
+        font-size: calc(.5rem + 5vw);
     }
 
     #home h2{
-        font-size: calc(.1rem + 3vw);
-    }
-
-    .resume-btn {
-        max-width: 10rem;
-        font-size: calc(.1rem + 1.3vw);
+        font-size: calc(.1rem + 4vw);
     }
 
     .icon-size {
-        font-size: calc(.1rem + 3vw)
+        font-size: calc(.1rem + 4vw)
     }
 
     /* Education */

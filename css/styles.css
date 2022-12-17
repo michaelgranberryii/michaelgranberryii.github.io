@@ -2,7 +2,9 @@
 /* ---- Global---- */
 /* --------------- */
 
-body {
+html, body {
+    height: 100%;
+    width: 100%;
     font-family: "Lato";
 }
 
@@ -115,9 +117,25 @@ p {
 /* ---------------- */
 
 #home {
-    margin-top: 60px;
+    background: url("../images/banner2.jpg") no-repeat 50% 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /* margin-top: 60px; */
     scroll-margin-top: 60px;
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
+}
+
+#home h1,h2 {
+    color: white;
+}
+
+.landing-text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(58, 56, 56, 0.681);
 }
 
 .masthead { 

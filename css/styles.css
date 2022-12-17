@@ -156,15 +156,15 @@ p {
 
 .a-icon {
     color: white;
-    margin: 0 10px;
 }
 
-.icon-size {
+.home-icon {
     font-size: 2em;
+    margin: auto 7px;
 }
 
 .a-icon:hover{
-    color: #00000071;
+    color: #ffffffa3;
 }
   
 /* About */
@@ -288,9 +288,8 @@ p {
     color: white;
 }
 
-.social-icon {
+.footer-icon {
     margin: 20px 3px;
-    color: white;
     font-size: 2rem;
 }
 

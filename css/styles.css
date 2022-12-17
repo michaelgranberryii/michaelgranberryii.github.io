@@ -129,16 +129,18 @@ p {
 
 #home h1 {
     color: white;
+    font-weight: 400;
 }
 
 #home h2 {
     color: white;
+    font-weight: 300;
     margin-bottom: 40px;
 }
 
 #home h4 {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-weight: 300;
 }
 

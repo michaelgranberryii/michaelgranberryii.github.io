@@ -339,9 +339,24 @@ p {
         font-size: calc(.1rem + 4vw);
     }
 
+    #home h4{
+        font-size: calc(.1rem + 4vw);
+    }
+
+    #home .btn{
+        font-size: calc(.1rem + 3vw);
+        padding: calc(.2vw) calc(1.5vw);
+    }
+
     .home-icon {
         margin: auto calc(1vw);
         font-size: calc(.1rem + 4vw);
+    }
+
+    #home hr {
+        border-top: 1.3px solid rgb(255, 255, 255);
+        width: calc(27vw); 
+        margin: auto;
     }
 
     /* Education */

@@ -133,7 +133,13 @@ p {
 
 #home h2 {
     color: white;
+    
+}
+
+#home h4 {
+    margin-top: 50px;
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .landing-text{

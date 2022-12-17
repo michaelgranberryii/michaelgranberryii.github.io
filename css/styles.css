@@ -197,22 +197,24 @@ p {
 }
 
 /* Skills */
-
-#skills{
+.schools{
+    margin-bottom: 20px;
+}
+#education{
     padding-top: 50px;
     padding-bottom: 50px;
     scroll-margin-top: 60px;
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
-#skills ul {
+#education ul {
     display: block;
     margin: 0 auto;
     padding: 0;
     max-width: 800px;
 }
 
-#skills li {
+#education li {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
@@ -220,7 +222,7 @@ p {
     background: #e4e4ea;
     list-style: none;
     cursor: default;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     border-radius: 4px;
 }
 

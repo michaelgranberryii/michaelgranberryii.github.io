@@ -293,11 +293,12 @@ p {
         font-size: calc(.1rem + 1.3vw);
     }
 
-    /* Skilss */
+    /* Education */
 
     .list-items {
         text-align: center;
     }
+
 
 
   }
@@ -306,5 +307,16 @@ p {
     /* Experience */
     .date-location-h5{
         text-align: left;
+    }
+
+    /* Education */
+
+    .school-card {
+        max-width: 436px;
+        text-align: center;
+    }
+
+    .date-location-school{
+        
     }
   }

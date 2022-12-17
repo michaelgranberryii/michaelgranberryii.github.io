@@ -70,9 +70,7 @@ p {
 }
 
 /* Container */
-.container-fluid {
-    padding: 5% 25%;
-}
+
 
 .container {
     padding: 0% 7%;
@@ -84,7 +82,11 @@ p {
 }
 
 .alt-section {
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
+}
+
+.footer-section {
+     background-color: #212529;
 }
 
 /* Nav Bar */
@@ -277,12 +279,18 @@ p {
 
 
 /* Social */
-#social {
+#footer {
     padding: 5% 0%;
+    text-align: center;
+}
+
+#footer h5 {
+    color: white;
 }
 
 .social-icon {
-    margin-bottom: 6px;
+    margin: 20px 3px;
+    color: white;
 }
 
 

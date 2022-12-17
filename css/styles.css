@@ -170,6 +170,13 @@ p {
 }
 
 .a-icon {
+    opacity: 0.5;
+    color: white;
+    transition: opacity 0.15s;
+}
+
+.a-icon:hover{
+    opacity: 0.8;
     color: white;
 }
 
@@ -178,11 +185,6 @@ p {
     margin: auto 5px;
 }
 
-
-.a-icon:hover{
-    color: white;
-    opacity: 0.6;
-}
   
 /* About */
 

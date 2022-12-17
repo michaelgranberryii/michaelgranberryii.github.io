@@ -163,6 +163,7 @@ p {
     margin: auto 5px;
 }
 
+
 .a-icon:hover{
     color: white;
     opacity: 0.6;
@@ -205,6 +206,10 @@ p {
 
 .project-card {
     max-width: 30rem;
+}
+
+.view-code-icon{
+    margin-right: 10px;
 }
 
 /* Experience */

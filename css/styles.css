@@ -173,6 +173,12 @@ p {
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
+#experience hr{
+    /* Solid border */
+    border-top: 3px solid #bbb;
+    max-width: 70px;
+}
+
 /* Skills */
 
 #skills{
@@ -263,5 +269,5 @@ p {
         max-width: 10rem;
         font-size: calc(.1rem + 1.3vw);
     }
-  
+
   }

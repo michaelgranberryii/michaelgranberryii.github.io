@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 }
 
 h1 {
@@ -34,13 +34,26 @@ h4 {
 }
 
 h5 {
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 400;
-    color: grey;
+    color: rgb(93, 93, 93);
+}
+
+h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(143, 143, 143); 
 }
 
 p {
-    font-size: 1rem
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Use BOX class to see div layout */
+.box{
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 /* Grid */
@@ -86,7 +99,7 @@ p {
 }
 
 .nav-item {
-    padding: 0 25px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -152,6 +165,7 @@ p {
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
+
 #project {
     background-color: rgb(219, 219, 219);
     margin-bottom: 5%;
@@ -161,6 +175,53 @@ p {
 
 .project-card {
     max-width: 30rem;
+}
+
+/* Experience */
+
+#experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
+}
+
+    /* Solid border */
+#experience hr{
+    border-top: 4 px solid #bbb;
+    max-width: 80px;
+}
+
+.date-location-h5{
+    text-align: right;
+}
+
+/* Skills */
+
+#skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    scroll-margin-top: 60px;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.5);
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    border-radius: 4px;
 }
 
 /* Contacts */
@@ -225,5 +286,14 @@ p {
         max-width: 10rem;
         font-size: calc(.1rem + 1.3vw);
     }
-  
+
+
+
+  }
+
+  @media (max-width: 992px) {
+    /* Experience */
+    .date-location-h5{
+        text-align: left;
+    }
   }

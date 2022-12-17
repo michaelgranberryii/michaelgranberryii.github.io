@@ -158,8 +158,9 @@ p {
 }
 
 .profile-img{
-    max-width: 15rem;
+    max-width: 11rem;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 .about-social{

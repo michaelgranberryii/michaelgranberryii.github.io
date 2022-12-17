@@ -182,6 +182,25 @@ p {
     border-bottom: 1px solid rgba(175, 175, 175, 0.5);
 }
 
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    border-radius: 4px;
+}
+
 /* Contacts */
 #contacts {
     padding-top: 50px;

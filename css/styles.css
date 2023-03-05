@@ -58,11 +58,11 @@ p {
 
 /* Grid */
 .row {
-
+    /* border: 1px solid blue; */
 }
 
-.col {
-
+div {
+    /* border: 1px solid red; */
 }
 
 .col-sm {
@@ -214,11 +214,9 @@ p {
 }
 
 
-#project {
-    background-color: rgb(219, 219, 219);
-    margin-bottom: 5%;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+#projects .card-footer{
+   background-color: white;
+   padding: 15px;
 }
 
 .project-card {
@@ -316,6 +314,14 @@ p {
     font-size: 2rem;
 }
 
+/* Project Pages */
+
+#project-page {
+    margin-top: 7rem;
+    padding-bottom: 50px;
+}
+
+
 
 /* @media Section */
   @media (max-width: 768px) {
@@ -366,6 +372,7 @@ p {
     .list-items {
         text-align: center;
     }
+
 
 
 

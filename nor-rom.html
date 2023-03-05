@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title>Michael Granberry</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/063ff84f2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Start #navbar -->
+    <section id="navbar">
+        <div>
+            <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+
+                <!-- narbar brand -->
+                <a href="#home">
+                    <img class="navbar-brand navlogo" src="images/logo.png" alt="logo img">
+                </a>
+                
+                <!-- narbar burger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- narbar menu -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about"> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#projects"> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#experience"> Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#education"> Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contacts"> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </section>
+    <!-- End #navbar -->
+
+    <!-- Start #project-page -->
+    <section id="project-page" class="white-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto">
+                    <h3>NOR ROM</h3>
+                </div>
+            </div>
+            <!-- .row start -->
+            <div class="row">
+                <div class="col">
+                    <p>
+                        Read-Only Memory (ROM) is a combinational circuit that outputs a specific pattern for each memory address. These addresses are the inputs to the circuit. The output for each memory address is based on the transistor orientation designed in that memory line. A simple implementation of the ROM circuit is called the NOR ROM implementation. This implementation involves pseudo-PMOS logic. This implementation makes resizing the NMOS transistors in the circuit very important to get accurate results. For a 2n input memory, there usually is an n to 2n decoder circuit attached to the ROM array. For testing a nXn ROM circuit, the decoder circuit can be replaced by an n-bit shift register. More modern design of ROM like programable ROM (PROM) or Electrically Erasable Programable ROM (EEPROM) must have a ROM Array in addition to other components.
+                    </p>
+                </div>
+            </div>
+            <!-- .row end -->
+
+            <br>
+
+            <!-- .row start -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <h4>NOR-ROM Breadboard Implementation</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <img src="images/nor-rom/nor-rom-bb.jpeg" alt="NOR ROM ARRAY" class="project-img card-img-top">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>NOR-ROM PSPICE Schematic</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <img src="images/nor-rom/sch.png" alt="NOR ROM ARRAY" class="project-img card-img-top">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <!-- .row end -->
+
+            <br>
+
+            <!-- .row start -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col">
+                            <h4>PSPICE Simulation</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/nor-rom/sim.png" alt="NOR ROM ARRAY" class="project-img card-img-top">
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- .row end -->
+
+            <br>
+
+            <!-- .row start -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <h4>NOR-ROM Output</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <img src="images/nor-rom/case1.JPG" alt="NOR ROM ARRAY" class="project-img card-img-top">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>NOR-ROM Input</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <img src="images/nor-rom/F0000TEK.JPG" alt="NOR ROM ARRAY" class="project-img card-img-top">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+            <!-- .row end -->
+
+        </div>
+    </section>
+    <!-- End #project-page -->
+
+    <!-- Start #social -->
+    <section id="footer" class="footer-section">
+        <div>
+            <a class="a-icon" href="https://www.linkedin.com/in/michaelgranberryii/" target="_blank"><i class="footer-icon fa-brands fa-linkedin"></i></a>
+            <a class="a-icon" href="https://github.com/michaelgranberryii" target="_blank"><i class="footer-icon fa-brands fa-square-github"></i></a>
+            <a class="a-icon" href="https://drive.google.com/file/d/1TZnHT6lOnZMg1vbHfqdBumxPpq6XUrRX/view?usp=share_link" target="_blank"><i class="footer-icon fa-solid fa-file-lines"></i></a>
+            <h5> <i class="fa-regular fa-copyright"></i> Copyright 2023 Michael Granberry</h5>
+        </div>
+    </section>
+    <!-- End #social -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -246,6 +246,12 @@ div {
     text-align: right;
 }
 
+/* Education */
+
+.date-location-school {
+    text-align: right;
+}
+
 /* Skills */
 .schools{
     margin-bottom: 20px;
@@ -390,6 +396,8 @@ div {
         max-width: 436px;
         text-align: center;
     }
-
+    .date-location-school {
+        text-align: center;
+    }
 
   }

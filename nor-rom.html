@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col">
                     <p>
-                        Read-Only Memory (ROM) is a combinational circuit that outputs a specific pattern for each memory address. These addresses are the inputs to the circuit. The output for each memory address is based on the transistor orientation designed in that memory line. A simple implementation of the ROM circuit is called the NOR ROM implementation. This implementation involves pseudo-PMOS logic. This implementation makes resizing the NMOS transistors in the circuit very important to get accurate results. For a 2n input memory, there usually is an n to 2n decoder circuit attached to the ROM array. For testing a nXn ROM circuit, the decoder circuit can be replaced by an n-bit shift register. More modern design of ROM like programable ROM (PROM) or Electrically Erasable Programable ROM (EEPROM) must have a ROM Array in addition to other components.
+                        Read-Only Memory (ROM) is a combinational circuit that outputs a specific pattern for each memory address. These addresses are the inputs to the circuit. The output for each memory address is based on the transistor orientation designed in that memory line. A simple implementation of the ROM circuit is called the NOR ROM implementation. This implementation involves pseudo-PMOS logic. This implementation makes resizing the NMOS transistors in the circuit very important to get accurate results. For a 2^n input memory, there usually is an n to 2n decoder circuit attached to the ROM array. For testing a 4X4 ROM circuit, the decoder circuit can be replaced by an 4-bit shift register. 
                     </p>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="row">
                         <div class="col-sm-12">
-                                <h4>NOR-ROM Breadboard Implementation</h4>
+                                <h4>Fig. 1: 4x4 NOR-ROM Memory Breadboard Implementation</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -102,7 +102,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="row">
                         <div class="col-12">
-                            <h4>NOR-ROM PSPICE Schematic</h4>
+                            <h4>Fig. 2: 4x4 NOR-ROM Memory PSPICE Schematic</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -123,7 +123,7 @@
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col">
-                            <h4>PSPICE Simulation</h4>
+                            <h4>Fig. 3: 4x4 NOR-ROM PSPICE Simulation</h4>
                         </div>
                     </div>
 
@@ -143,7 +143,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="row">
                         <div class="col-sm-12">
-                                <h4>NOR-ROM Output</h4>
+                                <h4>Fig. 4: 4x4 NOR-ROM Output, Bit-Lines</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -156,7 +156,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="row">
                         <div class="col-12">
-                            <h4>NOR-ROM Input</h4>
+                            <h4>Fig. 5: 4x4 NOR-ROM Input, D-FF Shift Register</h4>
                         </div>
                     </div>
                     <div class="row">
